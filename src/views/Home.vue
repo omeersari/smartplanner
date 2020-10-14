@@ -32,7 +32,9 @@ export default {
     createOwn() {
       this.$router.push({ name: "CreateYourOwn" });
     },
-    smartPlanner() {}
+    smartPlanner() {
+      this.$router.push({ name: "LetUsDo" });
+    }
   }
 };
 </script>
